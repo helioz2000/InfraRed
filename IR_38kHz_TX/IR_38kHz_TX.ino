@@ -1,4 +1,4 @@
-/*
+yes,/*
  * IR_38kHz_TX.ino
  * 38kHz Pule Width Modulation for Infrared transmission
  * 
@@ -16,6 +16,7 @@
 
 #define SYSCLOCK 16000000  // main system clock (Hz)
 #define PULSECLOCK 38000  // Hz
+
 #define IROUT 11
 
 uint8_t timer2top(unsigned long freq) ;
